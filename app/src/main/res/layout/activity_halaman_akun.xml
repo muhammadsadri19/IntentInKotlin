@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/zenitsu"
+    tools:context=".HalamanAkun">
+
+   <ImageView
+       android:layout_width="180dp"
+       android:layout_height="180dp"
+       android:src="@drawable/logoa"
+       android:layout_gravity="center"
+       android:layout_marginTop="150dp">
+   </ImageView>
+    <TextView
+    android:id="@+id/tvName"
+    android:background="@drawable/background_form"
+    android:text="@string/nama_letaknya_disini"
+    android:textSize="20sp"
+    android:gravity="center"
+    android:drawablePadding="15dp"
+    android:textStyle="bold"
+    android:layout_gravity="center"
+    android:layout_width="350dp"
+    android:layout_height="65dp"
+    android:layout_marginTop="10dp">
+</TextView>
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:background="@drawable/background_form"
+        android:text="@string/email_letaknya_disini"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:drawablePadding="15dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="5dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvPhone"
+        android:background="@drawable/background_form"
+        android:text="@string/nomor_telepon_disini"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:drawablePadding="15dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="5dp">
+    </TextView>
+
+
+</LinearLayout>

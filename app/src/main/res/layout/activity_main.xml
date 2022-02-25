@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/nezukoa"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/logoa"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="100dp">
+    </ImageView>
+
+    <EditText
+        android:id="@+id/edtuserName"
+        android:paddingStart="15dp"
+        android:drawablePadding="15dp"
+        android:background="@drawable/background_form"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:hint="@string/username"
+        android:textStyle="bold"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:inputType="text"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/edtemail"
+        android:paddingStart="15dp"
+        android:drawablePadding="15dp"
+        android:background="@drawable/background_form"
+        android:drawableStart="@drawable/ic_baseline_email_24"
+        android:hint="@string/email"
+        android:textStyle="bold"
+        android:layout_width="350dp"
+        android:layout_height="65dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="5dp"
+        />
+
+    <EditText
+        android:id="@+id/edtnumberPhone"
+        android:paddingStart="15dp"
+        android:drawablePadding="15dp"
+        android:background="@drawable/background_form"
+        android:drawableStart="@drawable/ic_baseline_phone_24"
+        android:hint="@string/number_phone"
+        android:textStyle="bold"
+        android:layout_width="350dp"
+        android:layout_height="65dp"
+        android:inputType="number"
+        android:layout_marginTop="5dp"
+        />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:text="@string/login"
+        android:textColor="@color/black"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        />
+
+</LinearLayout>

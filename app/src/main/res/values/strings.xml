@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">IntentInKotlin</string>
+    <string name="data_pribadi">Data Pribadi</string>
+    <string name="username">UserName</string>
+    <string name="number_phone">Number Phone</string>
+    <string name="login">Login</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="mail">Mail</string>
+    <string name="nomor_telepon_disini">Nomor Telepon Disini</string>
+    <string name="email_letaknya_disini">Email letaknya disini</string>
+    <string name="nama_letaknya_disini">Nama letaknya disini</string>
+    <string name="aplikasi_data_pribadi">Aplikasi Data Pribadi</string>
+    <string name="ini_data_kamu">Ini data Kamu !</string>
+    <string name="selamat_datang">Selamat Datang</string>
+</resources>
